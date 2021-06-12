@@ -175,6 +175,8 @@ select {
 /*############## My Code #################*/
 * {
   text-decoration: none;
+}main{
+  padding-top: 100px;
 }
 body {
   background-color: #e2e2e2;
@@ -182,6 +184,10 @@ body {
 
 /*############## header #################*/
 header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   background-color: white;
   width: 100%;
   height: 100px;
@@ -254,7 +260,7 @@ header .header-cases {
 .index-banner {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url("../images/4.jpg");
+  background-image: url("../images/5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -306,7 +312,7 @@ header .header-cases {
         margin: 0 auto;
     }
   .index-banner {
-    height: 900px;
+    height: 400px;
   }
   .index-banner h1 {
     display: block;
@@ -331,6 +337,85 @@ header .header-cases {
 
   }
 }
+
+/*############## Debian #################*/
+.debian-links{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.debian-links h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 100px;
+  color: rgb(12, 9, 9);
+  text-align: center;
+  text-transform: capitalize;
+}
+.debian-links .debian-link {
+  float: left;
+  width: 230px;
+  height: 230px;
+  background-color: #817272;
+  margin: 20px 10px 0px;
+  
+}
+.debian-links .debian-link p {
+  padding-top: 45%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(12, 9, 9);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*############## case #################*/
+.debian-one-vid h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 70px;
+  color: rgb(0, 14, 211);
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.debian-one-vid iframe{
+  width: 1000px;
+  height: 560px;
+  margin: 0 auto;
+  display: block;
+  padding: 0px 0px ;
+
+}
+
+.debian-one-vid article h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:50px;
+  font-weight: 900;
+  line-height: 70px;
+  color: rgb(11, 11, 17);
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+
+.debian-one-vid article div p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(11, 11, 17);
+    text-align: center;
+    text-transform: capitalize;
+    column-count: 3;
+    column-gap: 20px;
+    text-align: justify;
+  
+  
+  }
 /*############## FOOTER #################*/
 footer {
   width: calc(100% - 80px);
@@ -350,9 +435,10 @@ footer ul li {
 }
 footer ul li a {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   line-height: 40px;
+  border-bottom: 1px solid rgb(134, 248, 3);
 }
 .footer-links-cases {
   display: none;
@@ -363,8 +449,15 @@ footer ul li a {
 }
 .footer-social-media img {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  padding-top: 5%;
   background-color: rgb(220, 220, 224);
+  border-top: 3px solid rgb(134, 248, 3);
+  border-bottom: 3px solid rgb(134, 248, 3);
+  border-left: 3px solid rgb(134, 248, 3);
+  border-right: 3px solid rgb(134, 248, 3);
+  
 }
 
 

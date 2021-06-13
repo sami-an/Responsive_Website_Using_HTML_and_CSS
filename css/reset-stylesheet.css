@@ -427,7 +427,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gallery-img{
-  flex-basis: 22%;
+  flex-basis: 23%;
  margin: auto;
 }
 
@@ -436,11 +436,15 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gallery-img  p {
-  width: 100%;
+  width: 90%;
+  text-align: justify;
+  margin: 16px;
 }
 
 .gallery-img  h3 {
   width: 100%;
+  text-align: center;
+  margin: 6px;
 }
 
 /* ############ Flexbox  ################*/

@@ -1,5 +1,0 @@
-RewriteEngine on
-RewriteRule ^about$ about.html [NC]
-
-
-ErrorDocument 404 website/pages/404.html

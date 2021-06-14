@@ -175,7 +175,8 @@ select {
 /*############## My Code #################*/
 * {
   text-decoration: none;
-}main{
+}
+main {
   padding-top: 100px;
 }
 body {
@@ -307,10 +308,10 @@ header .header-cases {
 }
 
 @media only screen and (min-width: 1000px) {
-    .wrapper{
-        width: 1000px;
-        margin: 0 auto;
-    }
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
   .index-banner {
     height: 400px;
   }
@@ -318,10 +319,11 @@ header .header-cases {
     display: block;
     width: 560px;
     margin: 0 auto;
-  }  .index-links  {
+  }
+  .index-links {
     overflow: hidden;
-
-  }  .index-links div {
+  }
+  .index-links div {
     margin: 20px 10px 0;
     height: 230px;
     background-color: #f2f2f2;
@@ -330,16 +332,17 @@ header .header-cases {
 
   .index-boxlink-square {
     width: calc(25% - 20px) !important;
-  }  .index-boxlink-rectangle {
+  }
+  .index-boxlink-rectangle {
     width: calc(50% - 20px) !important;
-  }.index-links div h3 {
+  }
+  .index-links div h3 {
     line-height: 230px;
-
   }
 }
 
 /*############## Debian #################*/
-.debian-links{
+.debian-links {
   overflow: hidden;
   margin-bottom: 20px;
 }
@@ -358,7 +361,6 @@ header .header-cases {
   height: 230px;
   background-color: #817272;
   margin: 20px 10px 0px;
-  
 }
 .debian-links .debian-link p {
   padding-top: 45%;
@@ -371,7 +373,7 @@ header .header-cases {
 }
 
 /*############## case #################*/
-.debian-one-vid h2{
+.debian-one-vid h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 28px;
   font-weight: 900;
@@ -379,21 +381,19 @@ header .header-cases {
   color: rgb(0, 14, 211);
   text-align: center;
   text-transform: capitalize;
-
 }
 
-.debian-one-vid iframe{
+.debian-one-vid iframe {
   width: 1000px;
   height: 560px;
   margin: 0 auto;
   display: block;
-  padding: 0px 0px ;
-
+  padding: 0px 0px;
 }
 
-.debian-one-vid article h3{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size:50px;
+.debian-one-vid article h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
   font-weight: 900;
   line-height: 70px;
   color: rgb(11, 11, 17);
@@ -402,46 +402,44 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 20px;
 }
 
-.debian-one-vid article div p{
+.debian-one-vid article div p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:16px;
-    font-weight: 600;
-    line-height: 24px;
-    color: rgb(11, 11, 17);
-    text-align: center;
-    text-transform: capitalize;
-    column-count: 3;
-    column-gap: 20px;
-    text-align: justify;
-  
-  
-  }
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(11, 11, 17);
+  text-align: center;
+  text-transform: capitalize;
+  column-count: 3;
+  column-gap: 20px;
+  text-align: justify;
+}
 
-  /* ############ Flexbox  ################*/
+/* ############ Flexbox  ################*/
 
-.gallery-links{
+.gallery-links {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   margin: 10px;
 }
 
-.gallery-img{
+.gallery-img {
   flex-basis: 23%;
- margin: auto;
+  margin: auto;
 }
 
 .gallery-img img {
   width: 100%;
 }
 
-.gallery-img  p {
+.gallery-img p {
   width: 90%;
   text-align: justify;
   margin: 16px;
 }
 
-.gallery-img  h3 {
+.gallery-img h3 {
   width: 100%;
   text-align: center;
   margin: 6px;
@@ -480,11 +478,8 @@ footer ul li a {
   float: right;
 }
 .footer-social-media img {
-  
-
   height: auto;
   width: 100%;
-
 
   margin-bottom: 5px;
   margin-top: 20px;
@@ -494,9 +489,7 @@ footer ul li a {
   border-bottom: 3px solid rgb(134, 248, 3);
   border-left: 3px solid rgb(134, 248, 3);
   border-right: 3px solid rgb(134, 248, 3);
-  
 }
-
 
 @media only screen and (min-width: 1000px) {
   footer ul li {
@@ -504,12 +497,14 @@ footer ul li a {
   }
   .footer-links-cases {
     display: block;
-  }footer ul li p {
+  }
+  footer ul li p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 20px;
     color: rgb(231, 0, 0);
     line-height: 40px;
     text-transform: uppercase;
   }
-
 }
+
+/*########### BSOD 404 Page *########*/

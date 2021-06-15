@@ -215,12 +215,35 @@ header nav ul li {
   list-style: none;
   padding: 0 16px;
 }
-header nav ul li a {
+header nav ul li a:link  {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 16px;
   font-weight: 900;
-  color: #111;
+  color: rgb(255, 0, 64);
   text-transform: capitalize;
+  
+}
+header nav ul li a:visited  {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(4, 3, 68);
+  text-transform: capitalize;
+  
+}header nav ul li a:hover  {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: rgb(255, 196, 4);
+  text-transform: capitalize;
+  
+}header nav ul li a:active  {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 23px;
+  font-weight: 900;
+  color: rgb(241, 7, 7);
+  text-transform: capitalize;
+  
 }
 header .header-cases {
   display: none;
@@ -241,6 +264,7 @@ header .header-cases {
   }
   header nav ul li a {
     line-height: 60px;
+    color: rgb(255, 196, 4);
   }
   header .header-cases {
     display: block;
@@ -507,4 +531,31 @@ footer ul li a {
   }
 }
 
-/*########### BSOD 404 Page *########*/
+
+/*########### button *########*/
+.btn-group button {
+  background-color: #b9b2b2; /* Green background */
+  border: 1px solid rgb(253, 6, 6); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  text-align: left;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #ff8800;
+}
+.btn-group button a {
+  font-size: larger;
+  font-weight: bold;
+  font-display: initial;
+  font-style: italic;
+  
+}

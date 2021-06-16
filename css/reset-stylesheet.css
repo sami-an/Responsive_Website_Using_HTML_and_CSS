@@ -559,3 +559,11 @@ footer ul li a {
   font-style: italic;
   
 }
+/* grid */
+.grid{
+  display: grid;
+gap: 15px;
+grid-template-rows: auto auto auto;
+grid-template-columns: auto auto ;
+margin: 10px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  
+  <link rel="stylesheet" href="../../css/Website_Layouts_Using_CSS_Grid_.css">
+  <meta charset="utf-8">
+  <meta name="description" content="This is a website that teaches html and css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="coding, tutorials, html, css">
+  <meta name="author" content="Linux">
+  <title>linux</title>
+
+</head>
+
+<body>
+<h1>w3schools.com</h1>
+<div class="ex">
+    <p>
+        1- <em>"grid"</em> The grid property is a shorthand property for:<br>
+        2- <em>"gap"</em>  The gap property defines the size of the gap between the rows and columns .<br>
+        3- <em>"grid-template-rows"</em>  specifies the number and the heights of the rows in a grid layout. <br>      
+        4- <em>"grid-template-columns"</em> specifies the number and the widths of columns in a grid layout.<br>
+        5- <em>"grid-template-areas"</em> specifies areas within the grid layout.<br>
+        6- <em>"grid-auto-rows"</em> sets a size for the rows in a grid container.This property affects only rows with the size not set. <br>
+        6- <em>"grid-auto-columns"</em> sets a size for the columns in a grid container.  <br>
+        7- <em>"grid-auto-flow"</em> controls how auto-placed items get inserted in the grid. <br>
+    </div>
+    </p> 
+    <p>
+        <div class="hei"> 
+        display: grid;<br>
+        gap: 50px;<br>
+        grid-template-rows: 100px 300px;<br>
+        grid-template-columns: auto auto  ;<br>
+        grid-column: 1 / span 2;<em>start on column 1 and span 2 columns:</em> <br>
+        grid-template-areas: 'myArea myArea  . . ';<br>
+        grid-area: 2 / 1 / span 2 / span 3; <em>start on row 2 column 1, and span 2 rows and 3 columns:</em><br>
+        grid-auto-rows: 150px; <em > Set the size to 150 pixels per row</em> <br>
+        grid-auto-columns: 50px;<em > affects only columns with the size not set.</em> <br>
+        grid-auto-flow: column; <em></em> <br>
+        grid-auto-flow: row; <em></em> <br>
+    </p>
+    </div>
+    
+    <div class="grid">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+
+</div>
+</body>
+
+</html>

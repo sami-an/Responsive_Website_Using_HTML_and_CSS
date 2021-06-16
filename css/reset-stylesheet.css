@@ -180,7 +180,7 @@ main {
   padding-top: 100px;
 }
 body {
-  background-color: #e2e2e2;
+  background-color: #e4e1e1;
 }
 
 /*############## header #################*/
@@ -559,11 +559,54 @@ footer ul li a {
   font-style: italic;
   
 }
+
+/* but menu */
+.btn-group-menu button {
+  background-color: #ffffff; /* Green background */
+  border: 1px solid rgb(3, 3, 3); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  text-align: left;
+}
+
+.btn-group-menu button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-menu button:hover {
+  background-color: #999999;
+}
+.btn-group-menu button a {
+  font-size: larger;
+  font-weight: bold;
+  font-display: initial;
+  font-style: italic;
+  
+}
+
 /* grid */
-.grid{
+.grid1{
   display: grid;
-gap: 15px;
+gap: 5px;
 grid-template-rows: auto auto auto;
 grid-template-columns: auto auto ;
-margin: 10px;
+margin: 5px;
+}
+
+.item1 { grid-area: main1; background-color: }
+.item2 { grid-area: main2; }
+.item3 { grid-area: menu;  background-color: #ffffff; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu menu menu main1 main1 main2 main2 '
+    'menu menu menu  main1 main1 main2 main2 '
+    'menu menu  menu main1 main1 main2 main2 ';
+  grid-gap: 10px;
+  padding: 10px;
 }

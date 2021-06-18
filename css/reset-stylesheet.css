@@ -217,35 +217,33 @@ header nav ul li {
   list-style: none;
   padding: 0 16px;
 }
-header nav ul li a:link  {
+header nav ul li a:link {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 16px;
   font-weight: 900;
   color: rgb(255, 0, 64);
   text-transform: capitalize;
-  
 }
-header nav ul li a:visited  {
+header nav ul li a:visited {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 900;
   color: rgb(4, 3, 68);
   text-transform: capitalize;
-  
-}header nav ul li a:hover  {
+}
+header nav ul li a:hover {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
   font-weight: 900;
   color: rgb(255, 196, 4);
   text-transform: capitalize;
-  
-}header nav ul li a:active  {
+}
+header nav ul li a:active {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 23px;
   font-weight: 900;
   color: rgb(241, 7, 7);
   text-transform: capitalize;
-  
 }
 header .header-cases {
   display: none;
@@ -533,7 +531,6 @@ footer ul li a {
   }
 }
 
-
 /*########### button *########*/
 .btn-group button {
   background-color: #b9b2b2; /* Green background */
@@ -559,7 +556,6 @@ footer ul li a {
   font-weight: bold;
   font-display: initial;
   font-style: italic;
-  
 }
 
 /* but menu */
@@ -587,40 +583,47 @@ footer ul li a {
   font-weight: bold;
   font-display: initial;
   font-style: italic;
-  
 }
 
 /* grid */
-.grid1{
+.grid1 {
   display: grid;
-gap: 5px;
-grid-template-rows: auto auto auto;
-grid-template-columns: auto  auto;
-margin: 5px;
+  gap: 5px;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto;
+  margin: 5px;
 }
 
-.item1 { grid-area: main1 ; justify-self: center; }
-.item2 { grid-area: main2; justify-self: center; }
-.item3 { grid-area: menu;  background-color: #ffffff; justify-self: auto; }
+.item1 {
+  grid-area: main1;
+  justify-self: center;
+}
+.item2 {
+  grid-area: main2;
+  justify-self: center;
+}
+.item3 {
+  grid-area: menu;
+  background-color: #ffffff;
+  justify-self: auto;
+}
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    '. menu  main1 main2 . '
-    '. menu  main1 main2 . '
-    '. menu  main1 main2 . ';
+    ". menu  main1 main2 . "
+    ". menu  main1 main2 . "
+    ". menu  main1 main2 . ";
   grid-gap: 10px;
   padding: 10px;
 }
 /* map */
 
-iframe{
-
+iframe {
   height: 300px;
   width: 100%;
-  
-  
-}#map{
+}
+#map {
   margin: 1px;
   background-color: #222;
 }
